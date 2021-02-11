@@ -7,8 +7,8 @@
   "license": "PDDL-1.0",
   "sources": [
     {
-      "name": "CTT",
-      "web": "https://www.ctt.pt/feapl_2/app/restricted/postalCodeSearch/postalCodeDownloadFiles.jspx"
+      "title": "CTT",
+      "path": "https://www.ctt.pt/feapl_2/app/restricted/postalCodeSearch/postalCodeDownloadFiles.jspx"
     }
   ],
   "resources": [
@@ -36,7 +36,7 @@
             "description": "Código da localidade"
           },
           {
-            "name": "localidade",
+            "name": "nome_localidade",
             "type": "string",
             "description": "Nome da localidade"
           },
@@ -52,17 +52,17 @@
           },
           {
             "name": "prep1",
-            "type": "number",
+            "type": "string",
             "description": "Primeira preposição"
           },
           {
             "name": "titulo_arteria",
-            "type": "number",
+            "type": "string",
             "description": "Título (Doutor, Eng.º, Professor, etc)"
           },
           {
             "name": "prep2",
-            "type": "number",
+            "type": "string",
             "description": "Segunda preposição"
           },
           {
@@ -72,36 +72,36 @@
           },
           {
             "name": "local_arteria",
-            "type": "number",
+            "type": "string",
             "description": "Local da artéria"
           },
           {
             "name": "troco",
-            "type": "number",
+            "type": "string",
             "description": "Descrição do troço"
           },
           {
             "name": "porta",
-            "type": "number",
+            "type": "string",
             "description": "Número da porta do cliente"
           },
           {
             "name": "cliente",
-            "type": "number",
+            "type": "string",
             "description": "Nome do cliente"
           },
           {
-            "name": "cod_postal",
+            "name": "num_cod_postal",
             "type": "integer",
             "description": "Número do código postal"
           },
           {
-            "name": "extensao_cod_postal",
+            "name": "ext_cod_postal",
             "type": "integer",
             "description": "Extensão do número do código postal"
           },
           {
-            "name": "designacao_postal",
+            "name": "desig_postal",
             "type": "string",
             "description": "Designação postal"
           }
@@ -150,7 +150,7 @@
           {
             "name": "nome_distrito",
             "type": "string",
-            "description": "Código do concelho"
+            "description": "Nome do distrito"
           }
         ]
       }

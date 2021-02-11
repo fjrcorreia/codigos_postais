@@ -1,6 +1,7 @@
 Nesta datapackage encontra-se a lista completa de códigos postais em Portugal
 (continente e regiões autónomas), com mais de 300000 entradas.
 
+[![goodtables.io](https://goodtables.io/badge/github/centraldedados/codigos_postais.svg)](https://goodtables.io/github/centraldedados/codigos_postais)
 
 Fontes
 ------
@@ -34,18 +35,6 @@ Edição
 ------
 
   * [Ricardo Lafuente](http://twitter.com/rlaf)
-
-
-Detalhes técnicos
------------------
-
-O dataset original foi filtrado e simplificado para criar o CSV que se inclui nesta data package.
-O comando para essa filtragem é:
-
-    csvcut codigos_postais-orig.csv -c localidade,cod_arteria,tipo_arteria,prep1,titulo_arteria,prep2,nome_arteria,local_arteria,troco,porta,cliente,cod_postal,extensao_cod_postal,designacao_postal > codigos_postais.csv
-
-(É necessário ter o [csvkit](https://csvkit.readthedocs.org) instalado para
-poder executar esta operação.)
 
 
 Agradecimentos
